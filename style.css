@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "BungeeTint-Regular";
+    src: url("font/BungeeTint-Regular.ttf");
+}
+@font-face {
+    font-family: "Oswald";
+    src: url("font/Owsald/Oswald-VariableFont_wght.ttf");
+}
+
+.external{
+    color: coral;
+    font-size: 50px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+#id{
+    color: crimson;
+    font-style: italic;
+}
+.class{
+    font-size: 50px;
+    color:blueviolet;
+    /* font-style: italic; */
+    font-family: "BungeeTint-Regular";
+    font-family: "Oswald";    
+}
