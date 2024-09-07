@@ -2,12 +2,13 @@
     font-family: "BungeeTint-Regular";
     src: url("font/BungeeTint-Regular.ttf");
 }
+
 @font-face {
     font-family: "Oswald";
     src: url("font/Owsald/Oswald-VariableFont_wght.ttf");
 }
 
-.external{
+.external {
     color: coral;
     font-size: 50px;
 }
@@ -30,14 +31,77 @@ tr:nth-child(even) {
 }
 
 
-#id{
+#id {
     color: crimson;
     font-style: italic;
 }
-.class{
+
+.class {
     font-size: 50px;
-    color:blueviolet;
+    color: blueviolet;
     /* font-style: italic; */
     font-family: "BungeeTint-Regular";
-    font-family: "Oswald";    
+    font-family: "Oswald";
 }
+
+
+
+@media (max-width: 600px) {
+    .textbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+        padding: 20px;
+        border: 10px solid #3acc72;
+        border-radius: 5px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .text {
+        margin: 10px;
+    }
+}
+
+@media (min-width: 600px) {
+    .textbox {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+        padding: 20px;
+        border: 10px solid #ff0000;
+        border-radius: 5px;
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .text {
+        margin: 1px;
+    }
+}
+
+.animate__animated.animate__lightSpeedInRight.home {
+    text-align: center;
+    margin-top: 50px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.home {
+    text-align: center;
+    margin-top: 50px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+}  
